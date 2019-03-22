@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0E996D2243970C00EC4905 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E996C2243970C00EC4905 /* profile.swift */; };
+		AC0E99732243BE9700EC4905 /* mycell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E99722243BE9700EC4905 /* mycell.swift */; };
+		AC0E99752243BEBA00EC4905 /* users.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E99742243BEBA00EC4905 /* users.swift */; };
+		AC0E99772243D6B200EC4905 /* forgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E99762243D6B200EC4905 /* forgetPassword.swift */; };
+		AC0E99792244392C00EC4905 /* userDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E99782244392B00EC4905 /* userDetails.swift */; };
 		AC21ED27224252810016E416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21ED26224252810016E416 /* AppDelegate.swift */; };
-		AC21ED29224252810016E416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21ED28224252810016E416 /* ViewController.swift */; };
+		AC21ED29224252810016E416 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21ED28224252810016E416 /* mainView.swift */; };
 		AC21ED2C224252820016E416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC21ED2A224252820016E416 /* Main.storyboard */; };
 		AC21ED2F224252820016E416 /* Users_Management.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC21ED2D224252820016E416 /* Users_Management.xcdatamodeld */; };
 		AC21ED31224252850016E416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC21ED30224252850016E416 /* Assets.xcassets */; };
 		AC21ED34224252850016E416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC21ED32224252850016E416 /* LaunchScreen.storyboard */; };
+		AC21ED3C22425E0A0016E416 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21ED3B22425E0A0016E416 /* login.swift */; };
+		AC21ED3E22425E270016E416 /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21ED3D22425E270016E416 /* register.swift */; };
+		ACC6ED85224517A9009EEF45 /* editData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6ED84224517A9009EEF45 /* editData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0E996C2243970C00EC4905 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		AC0E99722243BE9700EC4905 /* mycell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mycell.swift; sourceTree = "<group>"; };
+		AC0E99742243BEBA00EC4905 /* users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = users.swift; sourceTree = "<group>"; };
+		AC0E99762243D6B200EC4905 /* forgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPassword.swift; sourceTree = "<group>"; };
+		AC0E99782244392B00EC4905 /* userDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetails.swift; sourceTree = "<group>"; };
 		AC21ED23224252810016E416 /* Users Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Users Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC21ED26224252810016E416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC21ED28224252810016E416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC21ED28224252810016E416 /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
 		AC21ED2B224252820016E416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC21ED2E224252820016E416 /* Users_Management.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users_Management.xcdatamodel; sourceTree = "<group>"; };
 		AC21ED30224252850016E416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC21ED33224252850016E416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC21ED35224252850016E416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC21ED3B22425E0A0016E416 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		AC21ED3D22425E270016E416 /* register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
+		ACC6ED84224517A9009EEF45 /* editData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,15 @@
 			isa = PBXGroup;
 			children = (
 				AC21ED26224252810016E416 /* AppDelegate.swift */,
-				AC21ED28224252810016E416 /* ViewController.swift */,
+				AC21ED28224252810016E416 /* mainView.swift */,
+				AC21ED3B22425E0A0016E416 /* login.swift */,
+				AC0E99762243D6B200EC4905 /* forgetPassword.swift */,
+				AC21ED3D22425E270016E416 /* register.swift */,
+				AC0E99742243BEBA00EC4905 /* users.swift */,
+				AC0E99782244392B00EC4905 /* userDetails.swift */,
+				AC0E99722243BE9700EC4905 /* mycell.swift */,
+				AC0E996C2243970C00EC4905 /* profile.swift */,
+				ACC6ED84224517A9009EEF45 /* editData.swift */,
 				AC21ED2A224252820016E416 /* Main.storyboard */,
 				AC21ED30224252850016E416 /* Assets.xcassets */,
 				AC21ED32224252850016E416 /* LaunchScreen.storyboard */,
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC21ED29224252810016E416 /* ViewController.swift in Sources */,
+				AC0E99752243BEBA00EC4905 /* users.swift in Sources */,
+				AC21ED29224252810016E416 /* mainView.swift in Sources */,
 				AC21ED27224252810016E416 /* AppDelegate.swift in Sources */,
+				AC0E99792244392C00EC4905 /* userDetails.swift in Sources */,
 				AC21ED2F224252820016E416 /* Users_Management.xcdatamodeld in Sources */,
+				AC21ED3C22425E0A0016E416 /* login.swift in Sources */,
+				AC0E99772243D6B200EC4905 /* forgetPassword.swift in Sources */,
+				AC0E99732243BE9700EC4905 /* mycell.swift in Sources */,
+				AC0E996D2243970C00EC4905 /* profile.swift in Sources */,
+				ACC6ED85224517A9009EEF45 /* editData.swift in Sources */,
+				AC21ED3E22425E270016E416 /* register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
